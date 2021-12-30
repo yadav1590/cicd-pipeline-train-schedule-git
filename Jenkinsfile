@@ -6,7 +6,6 @@ pipeline {
         stage('test') {
           steps {
             sh '''date
-time
 uptime
 hostname'''
           }
