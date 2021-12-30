@@ -22,7 +22,7 @@ hostname'''
 
     stage('deploy') {
       steps {
-        node(label: 'linux')
+        sleep 15
       }
     }
 
